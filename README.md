@@ -15,3 +15,17 @@ Clone this repository anywhere on you computer and add `source path/to/pvm/pvm.s
  - `pvm 8.1.0 -r "echo time()"`        Run script from string with specific PHP version
  - `pvm 8.1.0 -S 0.0.0.0:8080`         Start PHP 8.1.0 server on port 8080
  - *and so on...*
+
+### Example
+
+```
+> php -v
+PHP 7.4.21
+
+> pvm use 8.1.0
+Using PHP 8.1.0 version.
+
+> php -v
+PHP 8.1.0
+
+```
