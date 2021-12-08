@@ -14,6 +14,7 @@ function pvm() {
         echo "  pvm 8.1.0                         Run specific PHP version"
         echo "  pvm 8.1.0 file.php                Run file with specific PHP version"
         echo "  pvm 8.1.0 -r \"echo time()\"        Run script from string with specific PHP version"
+        echo "  pvm 8.1.0 -S 0.0.0.0:8080         Start PHP 8.1.0 server on port 8080"
         echo ""
         return 1
     elif [ "$1" = "list" ]; then
