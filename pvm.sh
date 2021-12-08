@@ -33,7 +33,7 @@ function pvm() {
             return 1
         fi
     elif test -f "/Applications/MAMP/bin/php/php$1/bin/php"; then
-        /Applications/MAMP/bin/php/php$1/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php$1.ini" $2
+        /Applications/MAMP/bin/php/php$1/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php$1.ini" $2 $3 $4 $5
     else
         echo "PHP $1 is not installed."
         return 1
