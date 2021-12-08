@@ -1,8 +1,10 @@
-# PVM
-
-### PHP Version Manager for MAMP Pro
+# PVM - PHP Version Manager for MAMP Pro
 
 Manages PHP versions for command line. Works with **zsh** autocomplete.
+
+### Installation
+
+Just copy `pvm.sh` file to your system and add `source path/to/pvm.sh` to your zsh config file (`~/.zshrc` in most cases).
 
 ### Usage
 
