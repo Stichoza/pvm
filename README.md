@@ -4,7 +4,7 @@ Manages PHP versions for command line. Works with **zsh** autocomplete.
 
 ### Installation
 
-Clone this repository on your system and add `source path/to/pvm/pvm.sh` to your zsh config file (`~/.zshrc` in most cases).
+Clone this repository anywhere on you computer and add `source path/to/pvm/pvm.sh` to your zsh config file (`~/.zshrc` in most cases).
 
 ### Usage
 
